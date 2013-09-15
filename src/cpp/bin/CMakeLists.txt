@@ -1,0 +1,3 @@
+add_executable(perspective_manipulation perspective_manipulation.cpp)
+target_link_libraries(perspective_manipulation ui optimization)
+target_link_libraries(perspective_manipulation opencv_core opencv_highgui opencv_imgproc)
